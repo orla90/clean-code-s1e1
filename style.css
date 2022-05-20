@@ -18,8 +18,11 @@
 }
 
 @media (max-width:768px) {
-.page-header { text-align: center;
-}
+
+  .page-header { 
+    text-align: center;
+  }
+
 }
 .todo-list {
   display: block;
