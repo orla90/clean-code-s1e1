@@ -4,15 +4,18 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .page-header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .page-header__img {
   width: 100%;
 }
+
 .page-header .page-header__link {
   font-family: fantasy, cursive;
 }
@@ -24,32 +27,39 @@
   }
 
 }
+
 .todo-list {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .todo-list__task{
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .todo-list__new-task-wrapper {
   display: flex;
 }
+
 #todo-list__incompleted-tasks, 
 #todo-list__completed-tasks {
   margin: 0;
   padding: 0px;
 }
+
 .todo-list__item, 
 .todo-list__title {
   list-style: none;
 }
+
 .todo-list__input,
 .todo-list__button{
   outline: none;
 }
+
 .todo-list__button {
   background: none;
   border: 0px;
@@ -59,9 +69,11 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .todo-list__button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .todo-list__title,
 #todo-list__to-add .todo-list__label {
@@ -73,6 +85,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .todo-list__input_text {
   margin: 0;
   font-size: 18px;
@@ -85,6 +98,7 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .todo-list__input_text:focus {
   color: #333;
 }
@@ -94,6 +108,7 @@
   display: block;
   margin: 0 0 20px;
 }
+
 #todo-list__new-task {
   width: 318px;
 }
@@ -108,6 +123,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .todo-list__item > * {
   vertical-align: middle;
 }
@@ -115,20 +131,24 @@
 .todo-list__item > .todo-list__input_checkbox {
   margin: 0 10px;
 }
+
 .todo-list__item > .todo-list__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .todo-list__item > .todo-list__input_text {
   width: 226px;
 }
+
 .todo-list__delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .todo-list__delete-img:hover {
   transform: rotateZ(0);
 }
@@ -143,10 +163,12 @@
 .todo-list__item > .todo-list__input_text {
   display: none;
 }
+
 .todo-list__edit-mode .todo-list__input_text {
   display: inline-block;
   width: 224px;
 }
+
 .todo-list__edit-mode .todo-list__label {
   display: none;
 }
