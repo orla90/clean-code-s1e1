@@ -37,14 +37,17 @@
 .todo-list__new-task-wrapper {
   display: flex;
 }
-#todo-list__incompleted-tasks, #todo-list__completed-tasks {
+#todo-list__incompleted-tasks, 
+#todo-list__completed-tasks {
   margin: 0;
   padding: 0px;
 }
-.todo-list__item, .todo-list__title {
+.todo-list__item, 
+.todo-list__title {
   list-style: none;
 }
-.todo-list__input,.todo-list__button{
+.todo-list__input,
+.todo-list__button{
   outline: none;
 }
 .todo-list__button {
